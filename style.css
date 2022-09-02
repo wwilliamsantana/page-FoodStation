@@ -1,4 +1,5 @@
 body{
+  
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -19,10 +20,18 @@ body{
 #nav{
   border-top: 1px solid #e1e1e1;
   border-bottom: 1px solid #e1e1e1;
+  background: #fff;
 }
 
 .search{
-  margin-left: 100px;
+  margin-left: 60px;
+}
+
+.search i{
+  background-color: #000;
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
 }
 
 .navbar-nav a{
@@ -43,7 +52,7 @@ body{
 /* Dropdown - itens */
 
 .dropdown-menu .dropdown-item{
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 /* Dropdown - Config Mouse Hover */
@@ -51,4 +60,27 @@ body{
 .dropdown:hover .dropdown-menu {
   display: block;
   margin-top: 0; 
+}
+
+
+
+
+
+
+/* Media queries */
+
+
+
+@media (max-width: 991px){
+  a.btn.dropdown-toggle.nav-toggle{
+    margin-left: 5px;
+    padding: 0;
+  }
+
+  .search{
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+
+
 }
