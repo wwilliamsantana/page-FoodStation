@@ -1,5 +1,5 @@
-body{
-  
+html,body{
+  height: 100%;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -60,24 +60,16 @@ body{
 .dropdown-menu .dropdown-item{
   font-size: 0.9em;
 }
-
-/* Dropdown - Config Mouse Hover */
-
 .dropdown:hover .dropdown-menu {
   display: block;
   margin-top: 0; 
 }
 
 
-/* Home - Carousel */
-.imagens-slide{
-  width: 78%;
-}
+
 
 
 /* Media queries */
-
-
 
 @media (max-width: 991px){
   a.btn.dropdown-toggle.nav-toggle{
