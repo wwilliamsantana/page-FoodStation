@@ -1,0 +1,54 @@
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/* Logo */
+
+#logo .logo{
+  padding: 30px 10px;
+}
+
+#logo .logo h1{
+  font-family: 'Indie Flower', cursive;
+  font-size: 4em;
+}
+
+/* Navbar */
+
+#nav{
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.search{
+  margin-left: 100px;
+}
+
+.navbar-nav a{
+  font-size: 1.1em;
+  margin: 4px 6px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.navbar-nav .nav-toggle{
+  margin-top: 6px ;
+}
+
+.navbar-nav .nav-toggle:visited, .navbar-nav .nav-toggle:link, .navbar-nav .nav-toggle:hover{
+  border: none;
+}
+
+/* Dropdown - itens */
+
+.dropdown-menu .dropdown-item{
+  font-size: 1em;
+}
+
+/* Dropdown - Config Mouse Hover */
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; 
+}
