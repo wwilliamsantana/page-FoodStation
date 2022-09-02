@@ -28,17 +28,23 @@ body{
 }
 
 .search i{
-  background-color: #000;
+  background-color: #363940;;
   color: white;
-  padding: 5px;
+  padding: 10px 12px;
+  font-size: 15px;
   border-radius: 50%;
+}
+
+.search i:hover{
+  background-color: rgba(0, 0, 0, 0.7);;;
+
 }
 
 .navbar-nav a{
   font-size: 1.1em;
   margin: 4px 6px;
   text-transform: uppercase;
-  color: #000;
+  color: #363940;;
 }
 
 .navbar-nav .nav-toggle{
@@ -63,8 +69,10 @@ body{
 }
 
 
-
-
+/* Home - Carousel */
+.imagens-slide{
+  width: 78%;
+}
 
 
 /* Media queries */
