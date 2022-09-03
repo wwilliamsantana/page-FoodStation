@@ -65,7 +65,64 @@ html,body{
   margin-top: 0; 
 }
 
+/* Conteúdo */
 
+#conteudo{
+  height: 70%;
+  background: url("https://images.unsplash.com/photo-1561566302-67abce51c2c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#conteudo .container{
+  display: flex;
+  height: 100%;
+  justify-content: flex-start;
+  align-items:center;
+}
+
+
+#conteudo h1{
+  background: #363940;
+  color: #fff;
+  padding: 20px 30px;
+
+  font-size: 5em;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.recipes-title{
+  margin: 30px 0;
+  font-family: "Indie Flower", Arial;
+  font-weight: 900;
+}
+
+.about-title{
+  font-family: "Indie Flower", Arial;
+  font-weight: 900;
+  font-size: 2.5em;
+
+}
+
+.about-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+.about-picture{
+  margin: 15px 0px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.about-content p{
+  padding: 0 15px;
+}
 
 
 
