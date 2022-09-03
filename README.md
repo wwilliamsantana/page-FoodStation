@@ -6,7 +6,7 @@
   <br>
 
   <br>
-  <p  align="center"><em>Confira o resultado do desafio em: <a href="https://wwilliamsantana.github.io/page-FoodStation/" target="_blank">wwilliamsantana.github.io/page-FoodStation/</a></em></p>
+  <p  align="center"><em>Confira o resultado em: <a href="https://wwilliamsantana.github.io/page-FoodStation/" target="_blank">wwilliamsantana.github.io/page-FoodStation/</a></em></p>
 </div>
 
 ## :computer: Sobre  
