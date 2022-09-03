@@ -85,7 +85,7 @@ html,body{
 
 
 #conteudo h1{
-  background: #363940;
+  background: #797979a9;
   color: #fff;
   padding: 20px 30px;
 
@@ -128,7 +128,7 @@ html,body{
 
 #form {
   margin-top: 20px;
-  border-top: 1px solid rgb(54, 57, 64, 0.4);
+  border-top: 1px solid #e1e1e1
 }
 
 
