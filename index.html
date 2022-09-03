@@ -195,18 +195,35 @@
 
     <section id="form">
       <div class="container">
-        <h2 class="p-5">Contact</h2>
-        <div class="row g-3 align-items-center">
-          <div class="col-auto">
-            <label for="text-name" class="col-form-label">Nome: </label>
-          </div>
-          <div class="col-auto">
-            <input
-              type="text"
-              id="text-name"
-              class="form-control"
-              aria-describedby="passwordHelpInline"
-            />
+        <h2 class="p-4 text-center">Contact</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label class="form-label">Name:</label>
+                <input type="text" class="form-control form-control-sm" />
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label">Email address</label>
+                <input
+                  type="email"
+                  class="form-control form-control-sm"
+                  placeholder="name@example.com"
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Comment</label>
+                <textarea
+                  class="form-control form-control-sm"
+                  rows="3"
+                ></textarea>
+              </div>
+
+              <div class="mb-5">
+                <a href="" class="btn btn-lg btn-outline-dark">Submit</a>
+              </div>
+            </form>
           </div>
         </div>
       </div>
